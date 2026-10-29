@@ -37,6 +37,10 @@ RPGuard provides configuration options for block restoration, including the rest
 
 RPGuard is designed for servers that need controlled world modification without losing the original map. It can be useful for adventure maps, protected public areas, resource zones, and other server environments where blocks should return to their original state after being mined.
 
+## Compatibility
+
+RPGuard is developed primarily for the Minecraft and Paper version used by the PiratMC server. Compatibility with other versions is not guaranteed, but contributions and community testing are welcome.
+
 ## License
 
 See the repository's license file for usage and distribution terms.
