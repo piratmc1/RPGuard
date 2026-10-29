@@ -1,0 +1,17 @@
+name: RPGuard
+version: '${version}'
+
+main: com.date44.rPGuard.RPGuard
+api-version: '26.2'
+load: POSTWORLD
+
+permissions:
+  rpguard.mine:
+    description: Allows temporary block mining
+    default: false
+  rpguard.build:
+    description: Allows placing blocks despite RPGuard's restrictions.
+    default: false
+  rpguard.mine.permanent:
+    description: Allows breaking blocks permanently without restoration.
+    default: false
